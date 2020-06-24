@@ -1,0 +1,44 @@
+
+.navbar-sidebar {
+    width: 15% !important;
+    padding: 0px !important;
+    padding-bottom: 0;
+}
+.list-unstyled {
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+}
+li {
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 10px;
+}
+.menu-sidebar-content {
+    position: relative;
+    height: auto;
+}
+.navbar-sidebar .navbar-list li a {
+    display: block;
+    color: #555;
+    font-size: 16px;
+    padding: 20px;
+    border: 2px solid #dadada;
+    text-decoration: none;
+}
+/* .navbar-sidebar .navbar-list li a:hover {
+    background-color: #fe7865;
+    color: #ffffff;
+    border:2px solid #ffffff;
+} */
+.active,.navbar-sidebar .navbar-list li a:hover {
+    background-color: #fe7865;
+    color: #ffffff !important;
+    border:2px solid #ffffff !important;
+}
+@media (max-width: 1600px) {
+.au-input-xl {
+    min-width: 70%;
+}
+}

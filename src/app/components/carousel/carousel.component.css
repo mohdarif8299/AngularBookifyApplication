@@ -1,0 +1,41 @@
+.bg-remover {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    background: #000;
+    opacity: 0.7;
+    display: inline;
+}
+.data {
+    position: absolute;
+    display: initial;
+    text-align: center;
+    padding: 135px;
+}
+.data h1,h4 {
+    color: #ffffff;
+}
+#bg_image {
+    width: 100%;
+    height: 550px;
+} 
+@media (min-width:992px) and (max-width:1199px) {
+   
+    .data {
+        padding: 100px;
+    }
+    .data h1,h4{
+        font-size: 0.6rem;
+    }
+}
+@media (min-width:480px) and (max-width:720px) {
+    .data h1,h4{
+        font-size: 1rem;
+    }
+    .data {
+        padding: 70px;;
+    }
+    #bg_image,.bg-remover {
+        height: 300px;
+    }
+}
